@@ -19,3 +19,7 @@ const RETAILERS={NEXT:"https://www.next.co.uk",ASOS:"https://www.asos.com","H&M"
 const PICK={n:"Chunky knit crew jumper",by:"Lila Willeman",note:"Sample note: swap this for one honest sentence about why you'd buy it."};
 /* FOUND AND WORN: add real photos (with permission) like {img:"looks/one.jpg",alt:"Description",cap:"Hoodie £14, trainers £28",url:"https://..."}. Leave empty to hide the section. */
 const LOOKS=[];
+/* HERO PHOTO: put a campaign photo in the folder and set e.g. HERO_IMG="looks/hero.jpg". Empty shows a graphic instead. */
+const HERO_IMG="";
+/* FEATURED COLLECTION: cat must match a product category. Add img:"looks/knit.jpg" for a campaign photo. */
+const COLLECTION={title:"Knit season",cat:"Knitwear",img:""};
